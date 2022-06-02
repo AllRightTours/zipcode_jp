@@ -21,7 +21,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name allrighttooursstorage --auth-mode key -d '$web' -s .
+            az storage blob upload-batch --account-name allrighttooursstorage --auth-mode key -d '$web/zipcode_jp' -s .
             
   # Azure logout
     - name: logout
