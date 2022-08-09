@@ -21,7 +21,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob sync --account-name allrighttooursstorage --account-key 17izPuTSjkhrYc7DSTqCsPlkflIE2LedBEmv8X26slPqONb0YJ3G7Vr+Eqb5TdxUW5vYoaEUWS+UN7hymFkt6Q== -c '$web/zipcode_jp' -s .
+            az storage blob sync --account-name allrighttooursstorage -c '$web/zipcode_jp' -s .
             
   # Azure logout
     - name: logout
