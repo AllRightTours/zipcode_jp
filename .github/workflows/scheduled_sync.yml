@@ -9,7 +9,7 @@ name: Merge upstream branches
 
 # Triggers the action as scheduled
 on:
-  # Runs on 10 minutes past every hour（毎 n 時 10 分に実行）
+  # Runs on 10 minutes past every hour（毎日 2 時 30 分に実行）
   schedule:
     # Ref: 
     #   - https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
